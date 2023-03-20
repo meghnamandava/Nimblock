@@ -81,4 +81,4 @@ Example output can be found in data_gen/output_data.
 5. Save the serial output from the test case into data_gen/output_data.
 6. Run data_analysis.py (modify script if using custom test cases). Comment/uncomment desired reports/graphs at the bottom of data_analysis.py.
   
-
+### For any questions or issues, email me (meghnam4@illinois.edu)
