@@ -75,10 +75,38 @@ Example output can be found in data_gen/output_data.
 #endif
 
 ```
- 
-3. Rebuild the application project.
-4. Run as described in above steps. (You should not need to reset the board/run FSBL if you only change the code in nimblock_zcu_sw)
-5. Save the serial output from the test case into data_gen/output_data.
-6. Run data_analysis.py (modify script if using custom test cases). Comment/uncomment desired reports/graphs at the bottom of data_analysis.py.
+3. To change the scheduling algorithm, modify nimblock_types.h 
+
+```
+/*
+ *  The following are valid configurations
+ *  Base:
+ *      define REPLAY, SYSTEM_TEST, BASELINE
+ *  OPT Base:
+ *      define REPLAY, SYSTEM_TEST, BASELINE, BETTER_BASELINE, PIPELINE
+ *  FCFS:
+ *      define REPLAY, SYSTEM_TEST, (PIPELINE)
+ *  Round Robin (Coytoe):
+ *      define REPLAY, SYSTEM_TEST, RR, (PIPELINE)
+ *  PREMA:
+ *      define REPLAY, SYSTEM_TEST, NIMBLOCK, (PIPELINE)
+ *  NIMBLOCK:
+ *      define REPLAY, SYSTEM_TEST, NIMBLOCK, PREEMPT, PIPELINE, APP
+ */
+#define REPLAY
+#define SYSTEM_TEST
+//#define BASELINE
+//#define BETTER_BASELINE
+//#define RR
+#define NIMBLOCK
+#define PREEMPT
+#define PIPELINE
+#define APP
+//#define DEBUG
+```
+5. Rebuild the application project.
+6. Run as described in above steps. (You should not need to reset the board/run FSBL if you only change the code in nimblock_zcu_sw)
+7. Save the serial output from the test case into data_gen/output_data.
+8. Run data_analysis.py (modify script if using custom test cases). Comment/uncomment desired reports/graphs at the bottom of data_analysis.py.
   
 ### For any questions or issues, email me (meghnam4@illinois.edu)
