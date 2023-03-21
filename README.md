@@ -16,8 +16,9 @@ Scheduling for Fine-grained FPGA Sharing through Virtualization
 4. The workspace should load. Right click to build applications if they do not automatically build. If there are build errors in the nimblock_zcu_sw application, right click to "Change referenced BSP" to nimblock_zcu_sw_bsp.
 5. Load the partial bitstreams in Nimblock/multi_app_ten_slots/bitstreams_bin/ onto the ZCU106 SD card.
 6. Open a serial console, such as putty, with the port corresponding to the FPGA and baud rate 115200.
-7. Due to an [error](https://support.xilinx.com/s/article/72210?language=en_US) in ZCU102/106 boards, the zynq_FSBL application must first be run on the board. After turning on the board/resetting the board, run the zynq_FSBL application. (Right click --> Run As --> Launch on Hardware (System Debugger)). This should print output from the First Stage Boot Loaded. 
-8. Run nimblock_zcu_sw (Right click --> Run As --> Launch on Hardware (System Debugger)). If the program is running, you should see something like
+7. Program the FPGA with the initial full bitstream: multi_app_ten_slots/bitstreams/Config_0.bit
+8. Due to an [error](https://support.xilinx.com/s/article/72210?language=en_US) in ZCU102/106 boards, the zynq_FSBL application must first be run on the board. After turning on the board/resetting the board, run the zynq_FSBL application. (Right click --> Run As --> Launch on Hardware (System Debugger)). This should print output from the First Stage Boot Loaded. 
+9. Run nimblock_zcu_sw (Right click --> Run As --> Launch on Hardware (System Debugger)). If the program is running, you should see something like
 
 ```
 [INFO]: Beginning Setup
@@ -32,7 +33,7 @@ PS GPIO INIT SUCCEED
 
 Example output can be found in data_gen/output_data.
 
-9. Save the output to data_gen/output_data for parsing and report generation.
+10. Save the output to data_gen/output_data for parsing and report generation.
 
 ## To create new tests and generate reports
 
