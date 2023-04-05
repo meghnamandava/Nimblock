@@ -1,5 +1,8 @@
 # Nimblock
 Scheduling for Fine-grained FPGA Sharing through Virtualization
+
+[![DOI](https://zenodo.org/badge/616604305.svg)](https://zenodo.org/badge/latestdoi/616604305)
+
  
 ## List of directories/files
   
