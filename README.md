@@ -8,7 +8,7 @@ Nimblock employs an overlay architecture which enables arbitrary, independent us
 For more details, please see our ISCA'23 paper:
 ```
 @inproceedings{nimblock,
-  author = {Mandava, Meghna, Reckamp, Paul, and Chen, Deming},
+  author = {Mandava, Meghna and Reckamp, Paul and Chen, Deming},
   title = {Nimblock: Scheduling for Fine-grained FPGA Sharing through Virtualization},
   year = {2023},
   isbn = {979-8-4007-0095-8/23/06},
