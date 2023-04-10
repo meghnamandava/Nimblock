@@ -6,6 +6,7 @@ Scheduling for Fine-grained FPGA Sharing through Virtualization
 Nimblock employs an overlay architecture which enables arbitrary, independent user logic to share portions of a single FPGA by dividing the FPGA into independently reconfigurable slots. We then explore scheduling possibilities to effectively time- and space-multiplex the virtualized FPGA by introducing Nimblock. The Nimblock scheduling algorithm balances application priorities and performance degradation to improve response time and reduce deadline violations. Unlike other algorithms, Nimblock explores preemption as a scheduling parameter to dynamically change resource allocations, and automatically allocates resources to enable suitable parallelism for an application without additional user input. We demonstrate system feasibility by realizing the complete system on a Xilinx ZCU106 FPGA and evaluating on a set of real-world benchmarks. In our results, we achieve lower average response times, fewer deadline violations, and lower tail response times when compared to other high-performance scheduling algorithms.
 
 For more details, please see our ISCA'23 paper:
+```
 @inproceedings{nimblock,
   author = {Mandava, Meghna, Reckamp, Paul, and Chen, Deming},
   title = {Nimblock: Scheduling for Fine-grained FPGA Sharing through Virtualization},
@@ -18,7 +19,7 @@ For more details, please see our ISCA'23 paper:
   location = {Orlando, FL, USA},
   series = {ISCA '23}
 }
-
+```
   
 ## List of directories/files
   
