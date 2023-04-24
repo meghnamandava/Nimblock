@@ -1,0 +1,11 @@
+               Request              |               Overall Response Time               |              Nimblock Response Time              
+"app": 2, "batch": 2, "priority": 3 | Start: 1681911799.6950152 End: 1681911799.7305143 | Start: "batch": 2, "priority": 3 End: "batch": 2, "priority": 3}
+"app": 0, "batch": 2, "priority": 1 | Start: 1681911799.7849948 End: 1681911799.815294 | Start: "batch": 2, "priority": 1 End: "batch": 2, "priority": 1}
+"app": 0, "batch": 7, "priority": 3 | Start: 1681911799.8718026 End: 1681911799.9019756 | Start: "batch": 7, "priority": 3 End: "batch": 7, "priority": 3}
+"app": 2, "batch": 2, "priority": 1 | Start: 1681911799.9468322 End: 1681911799.9746854 | Start: "batch": 2, "priority": 1 End: "batch": 2, "priority": 1}
+"app": 4, "batch": 2, "priority": 9 | Start: 1681911800.0145621 End: 1681911800.0403273 | Start: "batch": 2, "priority": 9 End: "batch": 2, "priority": 9}
+"app": 0, "batch": 5, "priority": 1 | Start: 1681911800.1106763 End: 1681911800.1413114 | Start: "batch": 5, "priority": 1 End: "batch": 5, "priority": 1}
+"app": 4, "batch": 3, "priority": 3 | Start: 1681911800.2116187 End: 1681911800.2383265 | Start: "batch": 3, "priority": 3 End: "batch": 3, "priority": 3}
+"app": 1, "batch": 1, "priority": 3 | Start: 1681911800.2806785 End: 1681911800.3079886 | Start: "batch": 1, "priority": 3 End: "batch": 1, "priority": 3}
+"app": 5, "batch": 2, "priority": 9 | Start: 1681911800.3646934 End: 1681911800.3935392 | Start: "batch": 2, "priority": 9 End: "batch": 2, "priority": 9}
+"app": 4, "batch": 5, "priority": 1 | Start: 1681911800.463628 End: 1681911800.4898305 | Start: "batch": 5, "priority": 1 End: "batch": 5, "priority": 1}

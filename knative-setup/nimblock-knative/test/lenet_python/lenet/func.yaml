@@ -1,0 +1,23 @@
+specVersion: 0.35.0
+name: lenet
+runtime: python
+registry: docker.io/mrmdell
+image: docker.io/mrmdell/lenet_python:latest
+imageDigest: sha256:74b9e39c3da9832df7a87caa7763e1311d02b03f61722bb0e92682529057491a
+created: 2023-04-19T20:09:56.110117096Z
+build:
+  buildpacks: []
+  builder: pack
+  buildEnvs: []
+run:
+  volumes: []
+  envs: []
+deploy:
+  namespace: default
+  remote: false
+  annotations: {}
+  options: {}
+  labels: []
+  healthEndpoints:
+    liveness: /health/liveness
+    readiness: /health/readiness

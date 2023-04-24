@@ -1,0 +1,11 @@
+               Request              |               Overall Response Time               |              Nimblock Response Time              
+"app": 0, "batch": 8, "priority": 1 Sent to CPU | Start: 1682004884.2249856 End: 1682004907.3985143 | Start: 1682004894.8011174 End: 1682004907.393472
+"app": 0, "batch": 8, "priority": 1 Sent to CPU | Start: 1682004884.3159418 End: 1682004897.8018906 | Start: 1682004884.5926569 End: 1682004897.779539
+"app": 0, "batch": 7, "priority": 9 Sent to CPU | Start: 1682004884.4014657 End: 1682004896.3010569 | Start: 1682004884.6992302 End: 1682004896.2800255
+"app": 0, "batch": 6, "priority": 9 Sent to CPU | Start: 1682004884.4904602 End: 1682004894.7772074 | Start: 1682004884.6486692 End: 1682004894.756142
+"app": 0, "batch": 2, "priority": 1 Sent to CPU | Start: 1682004884.5587416 End: 1682004887.5609832 | Start: 1682004884.5908933 End: 1682004887.5383854
+"app": 0, "batch": 6, "priority": 9 Sent to CPU | Start: 1682004884.6577988 End: 1682004897.3076005 | Start: 1682004887.562224 End: 1682004897.303149
+"app": 0, "batch": 6, "priority": 9 Sent to CPU | Start: 1682004884.7410507 End: 1682004906.5319445 | Start: 1682004896.314287 End: 1682004906.526052
+"app": 0, "batch": 6, "priority": 9 Sent to CPU | Start: 1682004884.7938082 End: 1682004907.1944146 | Start: 1682004897.305679 End: 1682004907.1890686
+"app": 0, "batch": 2, "priority": 9 Sent to CPU | Start: 1682004884.864622 End: 1682004900.7513542 | Start: 1682004897.8095407 End: 1682004900.7465725
+"app": 0, "batch": 6, "priority": 9 Sent to CPU | Start: 1682004884.961517 End: 1682004907.8701248 | Start: 1682004900.775428 End: 1682004907.8646817

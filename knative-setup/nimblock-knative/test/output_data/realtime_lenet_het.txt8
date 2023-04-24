@@ -1,0 +1,11 @@
+               Request              |               Overall Response Time               |              Nimblock Response Time              
+"app": 0, "batch": 5, "priority": 1 Sent to CPU | Start: 1682002862.6015017 End: 1682002869.3715057 | Start: 1682002862.6262248 End: 1682002869.356462
+"app": 0, "batch": 8, "priority": 1 Sent to FPGA | Start: 1682002862.6867402 End: 1682002866.1827207 | Start: 1682002862.7114685 End: 1682002866.1768389
+"app": 0, "batch": 4, "priority": 9 Sent to CPU | Start: 1682002862.7411873 End: 1682002868.7844322 | Start: 1682002862.7799714 End: 1682002868.7632465
+"app": 0, "batch": 1, "priority": 3 Sent to FPGA | Start: 1682002862.7946293 End: 1682002863.9635923 | Start: 1682002862.8168077 End: 1682002863.9568493
+"app": 0, "batch": 9, "priority": 1 Sent to FPGA | Start: 1682002862.8628268 End: 1682002866.6335618 | Start: 1682002862.8865733 End: 1682002866.6272817
+"app": 0, "batch": 5, "priority": 3 Sent to FPGA | Start: 1682002862.9546566 End: 1682002866.2823637 | Start: 1682002862.980492 End: 1682002866.276908
+"app": 0, "batch": 2, "priority": 3 Sent to CPU | Start: 1682002863.0459933 End: 1682002866.4275763 | Start: 1682002863.0901644 End: 1682002866.4154158
+"app": 0, "batch": 2, "priority": 3 Sent to FPGA | Start: 1682002863.1410751 End: 1682002866.3336031 | Start: 1682002863.9604716 End: 1682002866.3269312
+"app": 0, "batch": 5, "priority": 1 Sent to CPU | Start: 1682002863.2111943 End: 1682002869.6672106 | Start: 1682002863.2802663 End: 1682002869.6622987
+"app": 0, "batch": 2, "priority": 3 Sent to CPU | Start: 1682002863.2728624 End: 1682002869.39203 | Start: 1682002866.423001 End: 1682002869.3822193

@@ -1,0 +1,11 @@
+apiVersion: serving.knative.dev/v1
+kind: Route
+metadata:
+  name: het-route
+spec:
+  traffic:
+  - configurationName: test-func
+    percent: 50
+  - configurationName: nimblock-api
+    percent: 50
+  
