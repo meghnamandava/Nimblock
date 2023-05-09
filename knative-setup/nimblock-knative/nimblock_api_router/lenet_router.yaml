@@ -5,12 +5,8 @@ metadata:
 spec:
   traffic:
   - configurationName: lenet
-    percent: 100 
+    percent: 0
   - configurationName: nimblock-api-lenet
-    percent: 0
-  - configurationName: lenet2
-    percent: 0
-  - configurationName: nimblock-api-lenet2
-    percent: 0
+    percent: 100
 
   

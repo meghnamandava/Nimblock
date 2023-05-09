@@ -1,0 +1,12 @@
+apiVersion: serving.knative.dev/v1
+kind: Route
+metadata:
+  name: tdr-route
+spec:
+  traffic:
+  - configurationName: rendering 
+    percent: 0 
+  - configurationName: nimblock-api-3dr
+    percent: 100
+
+  

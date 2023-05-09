@@ -1,0 +1,11 @@
+               Request              |               Overall Response Time               |              Nimblock Response Time              
+"app": 2, "batch": 5, "priority": 1 Sent to FPGA | Start: 1683235028.6056607 End: 1683235046.9301462 | Start: 1683235030.5052922 End: 1683235046.9248717
+"app": 5, "batch": 2, "priority": 1 Sent to FPGA | Start: 1683235029.5233274 End: 1683235079.2750387 | Start: 1683235031.5242145 End: 1683235079.2674513
+"app": 0, "batch": 2, "priority": 9 Sent to FPGA | Start: 1683235030.1026187 End: 1683235038.291846 | Start: 1683235032.526849 End: 1683235038.285529
+"app": 2, "batch": 10, "priority": 1 Sent to FPGA | Start: 1683235030.7387676 End: 1683235054.1343265 | Start: 1683235030.7580216 End: 1683235054.127341
+"app": 0, "batch": 5, "priority": 9 Sent to FPGA | Start: 1683235031.6195369 End: 1683235047.6623828 | Start: 1683235032.526849 End: 1683235047.655819
+"app": 2, "batch": 9, "priority": 1 Sent to FPGA | Start: 1683235032.213065 End: 1683235061.9351573 | Start: 1683235032.2369626 End: 1683235061.9285243
+"app": 3, "batch": 2, "priority": 1 Sent to FPGA | Start: 1683235033.1530893 End: 1683235080.6095552 | Start: 1683235035.5464349 End: 1683235080.6036062
+"app": 5, "batch": 1, "priority": 3 Sent to FPGA | Start: 1683235033.9056838 End: 1683235085.5691452 | Start: 1683235033.9284534 End: 1683235085.5615916
+"app": 5, "batch": 3, "priority": 9 Sent to FPGA | Start: 1683235034.88277 End: 1683235107.9523268 | Start: 1683235034.9063165 End: 1683235107.9437947
+"app": 2, "batch": 10, "priority": 1 Sent to FPGA | Start: 1683235035.424261 End: 1683235092.7959597 | Start: 1683235035.4477968 End: 1683235092.789187

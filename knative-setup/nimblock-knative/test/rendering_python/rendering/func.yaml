@@ -1,0 +1,23 @@
+specVersion: 0.35.0
+name: rendering
+runtime: python
+registry: docker.io/mrmdell
+image: docker.io/mrmdell/rendering:latest
+imageDigest: sha256:c54d7f1f3256c72f0e87719f2dd71ddebc74ee6de634d0faab899439239b74e3
+created: 2023-04-25T18:30:44.368282694Z
+build:
+  buildpacks: []
+  builder: pack
+  buildEnvs: []
+run:
+  volumes: []
+  envs: []
+deploy:
+  namespace: default
+  remote: false
+  annotations: {}
+  options: {}
+  labels: []
+  healthEndpoints:
+    liveness: /health/liveness
+    readiness: /health/readiness

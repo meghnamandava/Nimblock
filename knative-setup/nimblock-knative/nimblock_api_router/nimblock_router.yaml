@@ -5,7 +5,7 @@ metadata:
 spec:
   traffic:
   - configurationName: test-func
-    percent: 50
+    percent: 0
   - configurationName: nimblock-api
-    percent: 50
+    percent: 100
   

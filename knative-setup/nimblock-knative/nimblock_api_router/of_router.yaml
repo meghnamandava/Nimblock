@@ -1,0 +1,12 @@
+apiVersion: serving.knative.dev/v1
+kind: Route
+metadata:
+  name: of-route
+spec:
+  traffic:
+  - configurationName: optical-flow
+    percent: 0 
+  - configurationName: nimblock-api-of
+    percent: 100
+
+  

@@ -1,0 +1,23 @@
+specVersion: 0.35.0
+name: image-compression2
+runtime: python
+registry: docker.io/mrmdell
+image: docker.io/mrmdell/img_compression_python2:latest
+imageDigest: sha256:1a37fcc5db1a866504896ab70433ace87c747ad395d7ad828e50faf3c30136b7
+created: 2023-04-25T18:03:25.558485795Z
+build:
+  buildpacks: []
+  builder: pack
+  buildEnvs: []
+run:
+  volumes: []
+  envs: []
+deploy:
+  namespace: default
+  remote: false
+  annotations: {}
+  options: {}
+  labels: []
+  healthEndpoints:
+    liveness: /health/liveness
+    readiness: /health/readiness

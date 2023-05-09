@@ -1,0 +1,14 @@
+apiVersion: serving.knative.dev/v1
+kind: Route
+metadata:
+  name: ic-route
+spec:
+  traffic:
+  - configurationName: image-compression
+    percent: 0 
+  - configurationName: image-compression2
+    percent: 0
+  - configurationName: nimblock-api-ic
+    percent: 100
+
+  

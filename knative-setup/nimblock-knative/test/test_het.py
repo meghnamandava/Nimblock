@@ -1,18 +1,19 @@
 import threading
-from input_data.standard_lenet_het import *
+from input_data.standard_mixed_het2 import *
 import time
 import subprocess
 
 
 endpoint = "\"http://het-route.default.127.0.0.1.sslip.io\""
 lenet_endpoint = "\"http://lenet-route.default.127.0.0.1.sslip.io\""
-alexnet_endpoint = "\"http://alexnet-route.default.127.0.0.1.sslip.io\""
+alexnet_endpoint = "\"http://nimblock-api-alexnet.default.127.0.0.1.sslip.io\""
+knn_endpoint = "\"http://nimblock-api-knn.default.127.0.0.1.sslip.io\""
 ic_endpoint = "\"http://ic-route.default.127.0.0.1.sslip.io\""
 of_endpoint = "\"http://of-route.default.127.0.0.1.sslip.io\""
 tdr_endpoint = "\"http://tdr-route.default.127.0.0.1.sslip.io\""
 
 error_log_file = "log/log.txt"
-log_file_base = "output_data/standard_lenet_cpu.txt"
+log_file_base = "output_data/standard_mixed_fpga2.txt"
 log_file = log_file_base
 
 requests = []
@@ -46,6 +47,8 @@ def form_reqs():
             ep = endpoint
             if EventNumbers[i][j] == 0:
                 ep = lenet_endpoint
+            elif EventNumbers[i][j] == 1:
+                ep = knn_endpoint
             elif EventNumbers[i][j] == 2:
                 ep = of_endpoint
             elif EventNumbers[i][j] == 3:
@@ -117,4 +120,4 @@ for i in range(10):
     log_file = log_file_base + str(i)
     run_replay(replay_run)
     parse_replay(replay_run)
-    time.sleep(10)
+    time.sleep(20)

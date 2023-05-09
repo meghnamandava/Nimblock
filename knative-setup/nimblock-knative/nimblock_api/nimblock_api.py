@@ -57,7 +57,7 @@ def send_to_nimblock(json_data):
             end_time = time.time()
             break
     fpga_host_socket.close()
-    response = str(response) + "Dest: FPGA" + ", Start time: " + str(start_time) + ", End time: " + str(end_time) + "\n"
+    response = str(response) + " Dest: FPGA" + ", Start time: " + str(start_time) + ", End time: " + str(end_time) + "\n"
     return response
 
 

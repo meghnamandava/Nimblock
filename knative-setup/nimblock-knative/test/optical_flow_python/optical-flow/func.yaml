@@ -1,0 +1,23 @@
+specVersion: 0.35.0
+name: optical-flow
+runtime: python
+registry: docker.io/mrmdell
+image: docker.io/mrmdell/optical-flow:latest
+imageDigest: sha256:14e52f9da7b8a7fd6792b5e388183c010cfaf2aca46d0241e06b9973a1795ec2
+created: 2023-04-25T18:09:29.473020242Z
+build:
+  buildpacks: []
+  builder: pack
+  buildEnvs: []
+run:
+  volumes: []
+  envs: []
+deploy:
+  namespace: default
+  remote: false
+  annotations: {}
+  options: {}
+  labels: []
+  healthEndpoints:
+    liveness: /health/liveness
+    readiness: /health/readiness

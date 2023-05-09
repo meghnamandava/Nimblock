@@ -3,7 +3,7 @@ import sys
 het_log_file = "output_data/" + sys.argv[1] + ".txt"
 
 #cpu_log_file = "output_data/lenet_cpu.txt"
-fpga_log_file = "output_data/realtime_lenet_fpga.txt"
+fpga_log_file = "output_data/realtime_mixed_fpga2.txt"
 #het_log_file = "output_data/lenet_het.txt"
 
 replays = 10
@@ -57,9 +57,9 @@ for i in range(replays):
         het_overhead = het_time/base_time
         overall += het_overhead
         #if het_overhead > 1.5:
-            #print(het_overhead)
             #print(f"Times: {het_time} {base_time}")
     het_overhead_seq = overall/10.0
+    print(het_overhead_seq)
     het_overall += het_overhead_seq
 
 het_overall_avg = het_overall / float(replays)

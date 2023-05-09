@@ -3,10 +3,10 @@ import random
 NUM_REPLAY = 10
 REPLAY_LEN = 10  
 
-delay_min = 1500
-delay_max = 2000
+delay_min = 50
+delay_max = 100
 
-input_seq_file = "input_data/standard_lenet_het.py"
+input_seq_file = "input_data/realtime_mixed_het.py"
 
 
 event_nums_no_knn = [0, 2, 3, 4, 5]
@@ -34,7 +34,7 @@ def main():
         alexnet = 0
         knn = 0
         for j in range(REPLAY_LEN):
-            if knn > -1:
+            if knn > 0:
                 if alexnet < 5:
                     item = random.choice(event_nums_no_knn)
                     if item == 5:
@@ -51,7 +51,7 @@ def main():
                 else:
                     item = random.choice(event_nums_no_alexnet)
 
-            item = 0 
+            #item = 0 
             sub_list.append(item)
         events.append(sub_list)
 
